@@ -1,0 +1,345 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: #F5F5F5;
+    max-width: 100%;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+    background: rgb(32, 161, 161); /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(243, 243, 243); /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+  }
+  
+  /* Estilo do título fixo */
+  .primerioTituloPrincipallt {
+    background-color: #A33A9C;
+    color: white;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 50px;
+    height: 100px;
+    display: flex;
+  }
+
+  .segundoTitulo{
+  align-items: flex-end;
+  justify-content: space-around;
+  color: white;
+  padding: 30px;  /* Reduz o padding */
+  height: 100px;
+  display: flex;
+  background-color: #743411;
+  }
+ 
+  /* Espaço extra para o conteúdo não ficar escondido pelo título fixo */
+  .textoslt {
+    margin: 20px;
+    max-width: 1200px; /* Limita a largura máxima do conteúdo */
+    margin: 20px auto; /* Centraliza o conteúdo */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 15px 20px; /* Reduz o padding horizontal */
+    border-radius: 5px;
+    font-size: 20px; /* Reduz o tamanho da fonte */
+    line-height: 1.5em;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* INICIO DA PÁGINA WEB CONTATO */
+  main {
+    max-width: 1200px; /* Defina uma largura máxima para o conteúdo principal */
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0;
+    align-items: center;
+    margin: 0 auto;
+    height: auto; /* Ajuste a altura conforme necessário */
+  }
+  
+  .container_doe {
+    max-width: 1920px; /* Limite o tamanho do contêiner */
+    margin: 0 auto; /* Centraliza a seção */
+  }
+  
+  .textoPrincipal {
+    text-align: center;
+    color: #000000;
+    font-size: 25px;
+    padding: 0 100px 0 100px;
+    height: 50%;
+    text-align: justify;
+  }
+  
+  .subtituloComoAjudar {
+    color: rgb(32, 161, 161);
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .lista-comoAjudar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: auto;
+  }
+  
+  .ul-ajudar {
+    padding: 20px 0 20px 0;
+  }
+  
+  .ul-ajudar li {
+    display: list-item; /* centraliza na horizontal */
+    margin: 0 5px;
+  }
+  
+  .titulocentral {
+    background-color: rgb(32, 161, 161);
+    margin-top: 0;
+    color: #f7f3fd;
+    font-family: Tahoma, Arial, sans-serif;
+    padding: 35px;
+    text-align: center;
+    font-size: 25px;
+    padding: auto;
+    width: 100%;
+  }
+  
+  .caixa_txt_1, .caixa_txt_2, .fraseEfeito2 {
+    text-align: center;
+    padding: 50px 25px 50px 25px;
+  }
+  
+  p {
+    text-align: justify;
+    font-size: 25px;
+    padding: 0 80px 0 80px;
+    height: 25vh;
+    justify-content: center;
+  }
+  
+  /* DIV IMAGEM - FLEX-BOX */
+  .container {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(red, green, blue, alpha);
+  }
+  
+  .box img {
+    display: block;
+    width: 80%;
+    border-radius: 5px;
+  }
+  
+  .box:hover {
+    transform: scale(1.3);
+    z-index: 2;
+  }
+  
+  .cards.antes {
+    display: table;
+    width: 100%;
+    height: 35%;
+    padding: 100px 0;
+    color: white;
+    background-position: 30% 45%;
+    background-size: cover;
+    filter: blur(6px);
+    position: absolute;
+  }
+  
+  .box-pixQrcode {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+  }
+  
+  .imgPix {
+    width: 70%;
+  }
+  
+  .item-0 {
+    order: 6;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: center;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  .item-1 {
+    order: 6;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: center;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  h3 {
+    background-color: rgb(32, 161, 161);
+    margin-top: 0;
+    color: #f7f3fd;
+    font-family: Tahoma, Arial, sans-serif;
+    padding: 35px;
+    text-align: center;
+    font-size: 25px;
+    padding: auto;
+  }
+  
+  /* INICIO BOTÃO ENTRE EM CONTATO */
+  .box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(248, 248, 248, 0.2);
+    padding: 35px;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #17738C;
+    border-radius: 28px;
+    display: inline-block;
+    cursor: pointer;
+    color: #f8f8f8;
+    font-family: Arial;
+    font-size: 23px;
+    padding: 10px 14px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #17738C;
+  }
+  
+  .Button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  /* INICIO DO POP-UP CONTATO */
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    border-radius: 10px; /* Torna os cantos arredondados */
+    max-height: 80vh; /* Limita a altura máxima do pop-up */
+    overflow-y: auto; /* Permite rolagem vertical se o conteúdo for muito grande */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave */
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+    text-align: center; /* Centraliza o título */
+  }
+  
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .lista-contato {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+    text-align: center; /* Centraliza os itens da lista */
+  }
+  
+  .lista-contato li {
+    font-size: 18px;
+    color: #555;
+    padding: 8px 0; /* Adiciona espaço entre os itens */
+    margin: 5px 0;
+    border-bottom: 1px solid #eee; /* Adiciona uma linha sutil entre os itens */
+  }
+  
+  .lista-contato li:last-child {
+    border-bottom: none; /* Remove a linha no último item */
+  }
+  
+  .popup img {
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem */
+    width: 150px; /* Define uma largura fixa para a imagem */
+    height: 190px;
+    border-radius: 5px; /* Adicion*/
+  
+  }
+  
