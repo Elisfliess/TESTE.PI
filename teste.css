@@ -31,14 +31,26 @@
   }
 
   .segundoTitulo{
-  align-items: flex-end;
-  justify-content: space-around;
-  color: white;
-  padding: 30px;  /* Reduz o padding */
-  height: 100px;
-  display: flex;
+    color: white;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 50px;
+    height: 100px;
+    display: flex;
   background-color: #743411;
   }
+
+
+  .segundoTopicos {
+    max-width: 1200px; /* Defina uma largura máxima para o conteúdo */
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0;
+    align-items: center;
+    margin: 0 auto;
+    height: auto; /* Ajuste a altura conforme necessário */
+}
  
   /* Espaço extra para o conteúdo não ficar escondido pelo título fixo */
   .textoslt {
